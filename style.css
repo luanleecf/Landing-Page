@@ -181,6 +181,41 @@ strong {
     padding-bottom: 20px;
 }
 
+#card-videos {
+    padding: 2rem;
+}
+
+#card-videos > h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1em;
+}
+
+#video-slider > div > div > p {
+    color: #fff;
+    width: 300px;
+}
+
+.videos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.videos video {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#card-videos > div > div.swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
+    position: relative;
+    padding-top: 50px;
+}
+
 footer {
     padding: 4rem;
     padding: 40px 4%;
